@@ -1,4 +1,4 @@
-let PersonName: string = "Abdullah Khalid";
+let PersonName: string = "muhammad yasin is a student";
 let lowerCase: string = PersonName.toLowerCase();
 console.log('Lower Case: ' + lowerCase);
 let upperCase: string = PersonName.toUpperCase();
