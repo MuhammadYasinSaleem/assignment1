@@ -1,4 +1,4 @@
-let name: string = "\t\n   John Doe   \t\n";
+let name: string = "\t\n   yasin   \t\n";
 
 console.log("Name with Whitespace:");
 console.log("'" + name + "'");
