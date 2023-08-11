@@ -3,5 +3,5 @@
  
  //addition
 
- let addition:number=number1+number2;
- console.log(addition);
+ let sub:number=number1-number2;
+ console.log(sub);
