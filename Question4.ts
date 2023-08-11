@@ -1,4 +1,3 @@
-let quote: string = "The greatest glory in living lies not in never falling, but in rising every time we fall.";
-let author: string = "Nelson Mandela";
-
-console.log(`"${quote}" - ${author}`);
+let a:string="Albert Einstein once said";
+let b:string= "A person who never made a mistake never tried anything new.";
+console.log(`"${a}", "${b}"`);
