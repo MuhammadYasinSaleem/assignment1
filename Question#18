@@ -1,0 +1,14 @@
+let place:string[]=["lahore","islamabad","belgium","california"];
+console.log("original order ",place);
+console.log("without modifying original array", [...place].sort());
+console.log("original order ",place);
+console.log("reverse order ",[...place].sort().reverse() );
+console.log("original order ",place);
+place.reverse();
+console.log("array in reverse order ",place);
+place.reverse();
+console.log("array in original order ",place);
+place.sort();
+console.log("array is sorted ",place);
+place.reverse();
+console.log("reverse alphabetic order", place);
