@@ -5,7 +5,7 @@ for(let i=0;i<person.length;i++)
     {
         console.log('Hello admin, would you like to see a status report?');
     }
-    else if(person[i]=='eric'||'yasin'||'ali'||'ahmad')
+    else 
     {
         console.log(`Hello ${person[i]}, thank you for logging in again.`);
         
