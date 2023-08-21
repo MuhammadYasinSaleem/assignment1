@@ -8,7 +8,7 @@ function info(manufacturer:string,modelname:string,...argument:[string,string|nu
 {
     const infocar:car={
 manufacturer,
-modelname,
+modelname
     };
 for(const [key,value]of argument)
 {
@@ -17,5 +17,5 @@ infocar[key]=value;
     return infocar;
 }
 
-const a=info('Toyota','corolla',['color','black'],['year','2020']);
+const a=info('Toyota','corolla',['color','black'],['year',2020]);
 console.log(a);
